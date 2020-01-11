@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4522709923C77A24007C853E /* EasyAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522709823C77A24007C853E /* EasyAuth.m */; };
+		4522709A23C77A24007C853E /* EasyAuth.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4522709723C77A24007C853E /* EasyAuth.h */; };
+		452270A923C77CF7007C853E /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 452270A323C77CF7007C853E /* AboutUsViewController.m */; };
+		452270AA23C77CF7007C853E /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 452270A423C77CF7007C853E /* SuccessViewController.m */; };
+		452270AB23C77CF7007C853E /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 452270A823C77CF7007C853E /* RegistrationViewController.m */; };
+		452270AC23C77D10007C853E /* AboutUsViewController.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 452270A723C77CF7007C853E /* AboutUsViewController.xib */; };
+		452270B723C77DE4007C853E /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 452270A523C77CF7007C853E /* RegistrationViewController.xib */; };
+		452270B823C77DE4007C853E /* SuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 452270A623C77CF7007C853E /* SuccessViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4522709223C77A24007C853E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				452270AC23C77D10007C853E /* AboutUsViewController.xib in CopyFiles */,
+				4522709A23C77A24007C853E /* EasyAuth.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4522709423C77A24007C853E /* libEasyAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEasyAuth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4522709723C77A24007C853E /* EasyAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyAuth.h; sourceTree = "<group>"; };
+		4522709823C77A24007C853E /* EasyAuth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyAuth.m; sourceTree = "<group>"; };
+		452270A023C77CF6007C853E /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		452270A123C77CF7007C853E /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		452270A223C77CF7007C853E /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		452270A323C77CF7007C853E /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		452270A423C77CF7007C853E /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
+		452270A523C77CF7007C853E /* RegistrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		452270A623C77CF7007C853E /* SuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuccessViewController.xib; sourceTree = "<group>"; };
+		452270A723C77CF7007C853E /* AboutUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUsViewController.xib; sourceTree = "<group>"; };
+		452270A823C77CF7007C853E /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		452270B123C77D3F007C853E /* Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		452270B323C77D3F007C853E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4522709123C77A24007C853E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452270AE23C77D3F007C853E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4522708B23C77A24007C853E = {
+			isa = PBXGroup;
+			children = (
+				4522709623C77A24007C853E /* EasyAuth */,
+				452270B223C77D3F007C853E /* Resources */,
+				4522709523C77A24007C853E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4522709523C77A24007C853E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4522709423C77A24007C853E /* libEasyAuth.a */,
+				452270B123C77D3F007C853E /* Resources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4522709623C77A24007C853E /* EasyAuth */ = {
+			isa = PBXGroup;
+			children = (
+				4522709723C77A24007C853E /* EasyAuth.h */,
+				4522709823C77A24007C853E /* EasyAuth.m */,
+				452270A223C77CF7007C853E /* AboutUsViewController.h */,
+				452270A323C77CF7007C853E /* AboutUsViewController.m */,
+				452270A723C77CF7007C853E /* AboutUsViewController.xib */,
+				452270A123C77CF7007C853E /* RegistrationViewController.h */,
+				452270A823C77CF7007C853E /* RegistrationViewController.m */,
+				452270A023C77CF6007C853E /* SuccessViewController.h */,
+				452270A423C77CF7007C853E /* SuccessViewController.m */,
+			);
+			path = EasyAuth;
+			sourceTree = "<group>";
+		};
+		452270B223C77D3F007C853E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				452270A523C77CF7007C853E /* RegistrationViewController.xib */,
+				452270A623C77CF7007C853E /* SuccessViewController.xib */,
+				452270B323C77D3F007C853E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4522709323C77A24007C853E /* EasyAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4522709D23C77A24007C853E /* Build configuration list for PBXNativeTarget "EasyAuth" */;
+			buildPhases = (
+				4522709023C77A24007C853E /* Sources */,
+				4522709123C77A24007C853E /* Frameworks */,
+				4522709223C77A24007C853E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyAuth;
+			productName = EasyAuth;
+			productReference = 4522709423C77A24007C853E /* libEasyAuth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		452270B023C77D3F007C853E /* Resources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452270B423C77D3F007C853E /* Build configuration list for PBXNativeTarget "Resources" */;
+			buildPhases = (
+				452270AD23C77D3F007C853E /* Sources */,
+				452270AE23C77D3F007C853E /* Frameworks */,
+				452270AF23C77D3F007C853E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Resources;
+			productName = Resources;
+			productReference = 452270B123C77D3F007C853E /* Resources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4522708C23C77A24007C853E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Nazario Mariano";
+				TargetAttributes = {
+					4522709323C77A24007C853E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					452270B023C77D3F007C853E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4522708F23C77A24007C853E /* Build configuration list for PBXProject "EasyAuth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4522708B23C77A24007C853E;
+			productRefGroup = 4522709523C77A24007C853E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4522709323C77A24007C853E /* EasyAuth */,
+				452270B023C77D3F007C853E /* Resources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		452270AF23C77D3F007C853E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452270B723C77DE4007C853E /* RegistrationViewController.xib in Resources */,
+				452270B823C77DE4007C853E /* SuccessViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4522709023C77A24007C853E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452270A923C77CF7007C853E /* AboutUsViewController.m in Sources */,
+				452270AB23C77CF7007C853E /* RegistrationViewController.m in Sources */,
+				452270AA23C77CF7007C853E /* SuccessViewController.m in Sources */,
+				4522709923C77A24007C853E /* EasyAuth.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452270AD23C77D3F007C853E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4522709B23C77A24007C853E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4522709C23C77A24007C853E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4522709E23C77A24007C853E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22QJGKKNX4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4522709F23C77A24007C853E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22QJGKKNX4;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		452270B523C77D3F007C853E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 22QJGKKNX4;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naz.-.Resources";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		452270B623C77D3F007C853E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 22QJGKKNX4;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.naz.-.Resources";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4522708F23C77A24007C853E /* Build configuration list for PBXProject "EasyAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4522709B23C77A24007C853E /* Debug */,
+				4522709C23C77A24007C853E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4522709D23C77A24007C853E /* Build configuration list for PBXNativeTarget "EasyAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4522709E23C77A24007C853E /* Debug */,
+				4522709F23C77A24007C853E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452270B423C77D3F007C853E /* Build configuration list for PBXNativeTarget "Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452270B523C77D3F007C853E /* Debug */,
+				452270B623C77D3F007C853E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4522708C23C77A24007C853E /* Project object */;
+}
